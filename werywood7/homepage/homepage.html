@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="homepagmedia.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <title>HomePage</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-section">
+            <ul class="main-nav">
+              <li class="menu-item">
+                <a class="menu-item-link" href="#firstpage">Home</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#secondpage">Information</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#third-section">Contact</a>
+              </li>
+            </ul>
+            <div class="active-nav"></div>
+          </nav>
+    </header>
+    
+    <main id="main-content" class="content-container">
+        <section class="firstpage section-content" id="firstpage">
+        
+            <nav class="tops-nav">  
+                <img src="../img/logo.png" width="200" height="80">
+                <div id="toggle-id"class="toggle"><a ><i onclick="popUpNavBar()" class="fas fa-bars"></i></a></div>
+                    <div class="navyo" id="navyo-id">
+                    <ul class="navvv">
+                        <li class="inner-nav">
+                            <ul class="nav1">
+                                <li><a class="item open-nav" href="#third-section">Wery T2</a></li>
+                                <li><a class="item open-nav" href="#">Wery T4</a></li>
+                                <li><a class="item open-nav" href="#">Ground 25</a></li>
+                                <li><a class="item open-nav" href="#">Ground 25+</a></li>
+                            </ul>
+                        </li>
+                        <li class="inner-nav2">
+                            <ul class="inner-nav3">
+                                <li><a class="second-item open-nav" href="#">Shop</a></li>
+                                <li><a class="second-item open-nav" href="#">Account</a></li>
+                                <li><a class="theicon"><i onclick="closeNavBar()" id="toggle-and-close" 
+                                class="fas fa-times"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                   
+    
+               
+                    
+            </nav>
+            
+            
+        </section>
+        <section class="secondpage" id="secondpage">
+            <div class="built-for-safety">
+                <span class="first-safe">Safety</span>
+                        <h3>Built for Safety</h3>
+                        <p>Safety is the most important part of the overall Model 3 design. The metal structure is a combination of aluminum and steel, for maximum strength in every area. In a roof-crush test, Model 3 resisted four times its own mass, even with an all-glass roof: that's the same weight as two full-grown African elephants.</p>
+                        <div class="rating">
+                            <h5 class="star">5-Star Overall NHTSA Rating</h5>
+                            <h5 class="rating-name">Passenger <i class="fas fa-star star-icon1"></i></h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Front Seat</h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Rear Seat</h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Rollover</h5><span class="rating-span">Frontal</span>
+                        </div>
+                        <div class="order-now">
+                            <a > &#8853 LEARN MORE </a>
+                            <div class="order-btn">
+                                <button class="order-now-btn">Order Now</button>
+                            </div>
+                            
+                        </div>
+                       
+                        
+                        <!-- <div class="rating"> 
+                            <h5 class="star">5-Star Overall NHTSA Rating</h5>
+                            <div class="star-rating">
+                                <h5 class="rating-name">Driver 
+                                    <i class="fas fa-star star-icon1"></i><i class="fas fa-star star-icon"></i>
+                                </h5><span class="rating-span">Frontal</span>
+                                
+                                <h5 class="rating-name">Passenger <i class="fas fa-star star-icon1"></i></h5><span class="rating-span">Frontal</span>
+                                <h5 class="rating-name">Front Seat</h5><span class="rating-span">Frontal</span>
+                                <h5 class="rating-name">Rear Seat</h5><span class="rating-span">Frontal</span>
+                                <h5 class="rating-name">Rollover</h5><span class="rating-span">Frontal</span>
+                            </div> -->
+            </div>
+                <img src="../img/home.png">
+        </section>
+        <!-- <section class="secondpage section-content" id="secondpage">
+            <div class="columns is-gapless">
+                <div class="columnn is-two-fifths safe">
+                    <div class="built-for-safety">
+                        <span>Safety</span>
+                        <h3>Built for Safety</h3>
+                        <p>Safety is the most important part of the overall Model 3 design. The metal structure is a combination of aluminum and steel, for maximum strength in every area. In a roof-crush test, Model 3 resisted four times its own mass, even with an all-glass roof: that's the same weight as two full-grown African elephants.</p>
+                    </div>
+
+                    <div class="rating"> 
+                        <h5 class="star">5-Star Overall NHTSA Rating</h5>
+                        <div class="star-rating">
+                            <h5 class="rating-name">Driver 
+                                <i class="fas fa-star star-icon1"></i><i class="fas fa-star star-icon"></i>
+                            </h5><span class="rating-span">Frontal</span>
+                            
+                            <h5 class="rating-name">Passenger <i class="fas fa-star star-icon1"></i></h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Front Seat</h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Rear Seat</h5><span class="rating-span">Frontal</span>
+                            <h5 class="rating-name">Rollover</h5><span class="rating-span">Frontal</span>
+                        </div>
+                    </div>
+                    
+                </div> 
+                    <div class="column texture" >                      
+                            <div class="big-line first-line">
+                                <h2>dsadsad</h2>
+                                <div class="line"></div>   
+                            </div>
+                            <div class="big-line second-line">
+                                <div class="line"></div>  
+                                <h2>dsadsad</h2>
+                                 
+                            </div>
+                            <div class="big-line third-line">
+                                <h2>dsadsad</h2>
+                                <div class="line2"></div> 
+                            </div>
+                                                
+                    </div>
+                    
+                
+            </div>
+            
+        </section> -->
+
+        <section class="third-section" id="third-section">
+            <div class="header">
+              <h2>Wery T2</h2>
+            </div>
+            <img
+              class="third-section-img"
+              src="../img/wood.jpg"
+              alt="wood picture"
+            />
+            <div class="shop-now-btn">
+              <button class="shop-btn">SHOP NOW</button>
+            </div>
+            <div class="privacy-texts">
+              <ul class="privacy-bar">
+                <li>Wery Wood@2020</li>
+                <li><a>Privacy & Legal</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Get Newsletter</a></li>
+                <li><a>Privacy & Legal</a></li>
+                <li><a>News</a></li>
+                <li><a>Forums</a></li>
+                <li><a>Locations</a></li>
+              </ul>
+            </div>
+          </section>
+          
+          <section class="fourth-section">
+            <div class="fourth-section-img" style="background-image: url(../img/tesla-solar-panels-house-scaled.jpg);">
+              </div>
+          <div class="learn-more">
+            <span>Utility</span>
+            <h3>Room for Everything</h3>
+            <a> &#8853 LEARN MORE </a>
+          </div>
+          <div class="description-text">
+            <p>
+              Pellentesque habitant morbi tristique senectus et netus et malesuada
+              fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+              ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+              egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+              eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
+              Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit
+              amet, wisi.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-steps">
+            <div class="all-steps">
+              
+                <div class="steps">
+                    <div class="left-border"></div>
+                    <div class="head">
+
+                        <div class="numb">
+                            <span>&#9312</span></div>
+                        <h5>Easy to Customize Colors</h5>
+                    </div>
+                    <p>ในการทาสี เคลือบไม้ หรือ ฟอกสีไม้ สามารถทำได้ง่ายกว่าไม้ทั่วไป</p>
+                </div>
+                <div class="steps">
+                    <div class="left-border"></div>
+                    <div class="head">
+                        <div class="numb"><span>&#9313</span></div>
+                        <h5>Easy to Customize Colors</h5>
+                    </div>
+                    <p>ในการทาสี เคลือบไม้ หรือ ฟอกสีไม้ สามารถทำได้ง่ายกว่าไม้ทั่วไป</p>
+                    
+                </div>
+                <div class="steps">
+                    <!-- <div class="left-border"></div> -->
+                    <div class="head">
+                        <div class="numb"><span>&#9314</span></div>
+                        <h5>Easy to Customize Colors</h5>
+                    </div>
+                    <p>ในการทาสี เคลือบไม้ หรือ ฟอกสีไม้ สามารถทำได้ง่ายกว่าไม้ทั่วไป</p>
+                    
+                </div>
+                
+            </div>
+            <div class="section-steps-img" style="background-image: url(../img/tesla-solar-panels-house-scaled.jpg);">
+            </div>
+           
+
+        </section>
+
+    </main>
+    <script src="homepage.js"></script>
+
+</body>
+</html>

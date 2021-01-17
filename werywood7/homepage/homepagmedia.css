@@ -1,0 +1,618 @@
+@media only screen and (max-width: 1600px) {
+  .built-for-safety {
+    width: 25vw;
+  }
+  .rating {
+    width: 20vw;
+    height: 30vh;
+  }
+  .secondpage img {
+    width: 75vw;
+  }
+}
+/* .order-now {
+  width: 100%;
+  transform: translateX(0%);
+  padding: 30px 0;
+  background-color: blue;
+}
+.order-now a {
+  margin-left: 0%;
+  font-size: 15px;
+}
+.order-btn {
+  background-color: chocolate;
+  width: 50%;
+}
+.order-now-btn {
+  width: 100%;
+  background-color: brown;
+} */
+
+@media only screen and (max-width: 1279px) {
+  .order-now {
+    width: 115%;
+    transform: translateX(-7%);
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .built-for-safety {
+    width: 30vw;
+  }
+  .secondpage img {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 1032px) {
+  .order-now {
+    width: 122%;
+    transform: translateX(-10%);
+    padding: 30px 0;
+  }
+  .order-now a {
+    font-size: 14px;
+    margin-left: 3%;
+    padding: 0 0;
+  }
+  .order-btn {
+    width: 50%;
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .order-now-btn {
+    width: 100%;
+    margin: 0 0;
+  }
+  .nav1 {
+    text-align: center;
+    padding-left: 30px;
+  }
+  .steps {
+    margin-left: 0.5vh;
+  }
+  .fourth-section {
+    height: 90vh;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  .secondpage {
+    /* background-color: rgba(246, 240, 239, 0.8); */
+  }
+  .built-for-safety {
+    opacity: 1;
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    background-color: transparent;
+    padding-top: 3vh;
+    bottom: 7vh;
+  }
+  .rating {
+    display: none;
+  }
+  .secondpage img {
+    width: 100vw;
+    height: 75vh;
+  }
+  .firstpage {
+    height: 100vh;
+    width: 100vw;
+  }
+  .navyo {
+    position: absolute;
+    right: 0%;
+    width: 25%;
+  }
+  .navvv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  nav.tops-nav ul {
+    background-color: white;
+  }
+  nav.tops-nav ul li {
+    display: block;
+  }
+  .nav1 {
+    padding-left: 0px;
+  }
+  .inner-nav3 li {
+    margin-left: 0px;
+  }
+  .inner-nav2 {
+    float: left;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .inner-nav3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .navvv li:first-child {
+    order: 2;
+  }
+  .inner-nav3 li:last-child {
+    order: -1;
+  }
+  .theicon i {
+    float: right;
+    padding-right: 20%;
+    padding-top: 10%;
+  }
+  nav.tops-nav img {
+    height: 50%;
+    padding-left: 15px;
+    cursor: pointer;
+  }
+  .order-now {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(90%);
+    transform: translateY(15%);
+    position: relative;
+    bottom: 5vh;
+  }
+  .numb {
+    font-size: 30px;
+  }
+  .fourth-section {
+    height: 90vh;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .built-for-safety {
+    height: 30vh;
+    padding-top: 7vh;
+  }
+  .secondpage img {
+    height: 70vh;
+  }
+  .order-now {
+    width: 40%;
+    transform: translateX(15%);
+    transform: translateY(30%);
+    padding-top: 4vh;
+  }
+  .item {
+    display: block;
+  }
+  .second-item {
+    margin: 0 0;
+    display: block;
+  }
+  .navyo {
+    position: absolute;
+    right: 0%;
+    width: 35%;
+  }
+  .navvv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  nav.tops-nav ul {
+    background-color: white;
+  }
+  nav.tops-nav ul li {
+    display: block;
+  }
+  .nav1 {
+    padding-left: 0px;
+  }
+  .inner-nav3 li {
+    margin-left: 0px;
+  }
+  .inner-nav2 {
+    float: left;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .inner-nav3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .navvv li:first-child {
+    order: 2;
+  }
+  .inner-nav3 li:last-child {
+    order: -1;
+  }
+  .theicon i {
+    float: right;
+    padding-right: 20%;
+    padding-top: 10%;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .built-for-safety {
+    padding-top: 8vh;
+  }
+  .order-now {
+    width: 50%;
+  }
+  .item {
+    display: block;
+  }
+  .second-item {
+    margin: 0 0;
+    display: block;
+  }
+  nav.tops-nav {
+    width: 100%;
+    text-align: right;
+  }
+  .navyo {
+    position: absolute;
+    right: 0%;
+    width: 35%;
+  }
+  .navvv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  nav.tops-nav ul {
+    background-color: white;
+  }
+  nav.tops-nav ul li {
+    display: block;
+  }
+  .nav1 {
+    padding-left: 0px;
+  }
+  .inner-nav3 li {
+    margin-left: 0px;
+  }
+  .inner-nav2 {
+    float: left;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .inner-nav3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .navvv li:first-child {
+    order: 2;
+  }
+  .inner-nav3 li:last-child {
+    order: -1;
+  }
+  .theicon i {
+    float: right;
+    padding-right: 20%;
+    padding-top: 10%;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .built-for-safety p {
+    font-size: 14px;
+  }
+  .order-now {
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navyo {
+    position: absolute;
+    right: 0%;
+    width: 35%;
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+  .navvv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .theicon i {
+    float: right;
+    padding-right: 12%;
+    padding-top: 10%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .order-now {
+    padding: 4vh;
+    width: 70%;
+  }
+  nav.tops-nav img {
+    height: 5vh;
+    padding-top: 1vh;
+  }
+  .theicon i {
+    float: right;
+    padding-right: 10%;
+    padding-top: 10%;
+  }
+  .navyo {
+    position: absolute;
+    right: 0%;
+    width: 35%;
+  }
+  .navvv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .built-for-safety {
+    height: 40vh;
+    padding-top: 7vh;
+  }
+  .secondpage img {
+    height: 60vh;
+  }
+  nav.tops-nav img {
+    height: 6vh;
+    width: 40vw;
+    margin: 0 0;
+    padding: 0;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+  }
+}
+
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+  .built-for-safety {
+    height: 45vh;
+    padding-top: 7vh;
+  }
+  .built-for-safety p {
+    font-size: 15px;
+  }
+  .secondpage img {
+    height: 55vh;
+  }
+  .order-now {
+    width: 100vh;
+    transform: translateY(50%);
+    margin: auto auto;
+  }
+  .order-btn {
+  }
+  .privacy-texts {
+    font-size: 8px;
+  }
+
+  .learn-more {
+    width: 35vw;
+    height: 20vh;
+    float: left;
+  }
+  .learn-more span {
+    font-size: 10px;
+  }
+  .learn-more h3 {
+    font-size: 15px;
+  }
+  .description-text {
+    width: 65vw;
+    height: 20vh;
+    font-size: 10px;
+  }
+  .learn-more a {
+    font-size: 8px;
+  }
+  .head h5 {
+    font-size: 10px;
+  }
+
+  .numb {
+    font-size: 20px;
+  }
+
+  .all-steps p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 540px) and (max-height: 900px) {
+  .order-now {
+    width: 100%;
+    height: 50px;
+    transform: translateY(50%);
+    margin: auto auto;
+  }
+  .built-for-safety {
+    padding-top: 10vh;
+  }
+  .built-for-safety p {
+    font-size: 12px;
+  }
+  .privacy-texts {
+    font-size: 10px;
+  }
+  .learn-more {
+    float: left;
+    padding: 10px 20px;
+  }
+  .learn-more span {
+    font-size: 10px;
+  }
+  .learn-more h3 {
+    font-size: 15px;
+  }
+  .description-text {
+    width: 65vw;
+    height: 20vh;
+    font-size: 10px;
+    padding: 10px;
+  }
+  .learn-more a {
+    font-size: 10px;
+  }
+  .head {
+    margin-bottom: 5px;
+  }
+  .head h5 {
+    font-size: 10px;
+  }
+  .numb {
+    font-size: 20px;
+  }
+  .all-steps p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-height: 670px) {
+  .built-for-safety {
+    height: 100vh;
+  }
+
+  .secondpage img {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) and (max-height: 670px) {
+  .built-for-safety {
+    height: 38vh;
+  }
+  .secondpage img {
+    height: 62vh;
+  }
+}
+@media only screen and (max-height: 500px) and (max-height: 670px) {
+  .built-for-safety {
+    height: 35vh;
+  }
+
+  .secondpage img {
+    height: 65vh;
+  }
+  .built-for-safety p {
+    font-size: 10px;
+  }
+  .order-now {
+    width: 100%;
+    height: 60px;
+    transform: translateX(0%);
+    margin-top: 40px;
+  }
+  .order-btn {
+    width: 40%;
+  }
+  .order-now-btn {
+    margin: 0 0;
+    width: 100%;
+    font-size: 12px;
+  }
+  .order-now a {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .privacy-texts {
+    font-size: 7px;
+  }
+  .head {
+    margin-bottom: 2px;
+  }
+  .head h5 {
+    font-size: 8px;
+  }
+  .numb {
+    font-size: 15px;
+  }
+  .all-steps p {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-height: 570px) {
+  .secondpage img {
+    height: 55vh;
+  }
+  .built-for-safety {
+    height: 45vh;
+  }
+  .order-now {
+    width: 100%;
+    transform: translateX(-2%);
+    transform: translateY(15%);
+  }
+}
+@media only screen and (max-height: 500px) {
+  .secondpage img {
+    height: 55vh;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .secondpage img {
+    height: 55vh;
+  }
+  .built-for-safety {
+    height: 45vh;
+  }
+  .built-for-safety h3 {
+    font-size: 20px;
+  }
+  .order-now {
+    width: 50%;
+    height: 10%;
+    padding-top: 12px;
+    transform: translateX(0%);
+    transform: translateY(-50%);
+  }
+  .order-btn {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .built-for-safety {
+    padding-top: 8vh;
+  }
+  .built-for-safety h3 {
+    font-size: 3vh;
+  }
+  .order-now a {
+    margin-left: 0%;
+  }
+  .order-btn {
+    width: 55%;
+  }
+}
+
+/* .built-for-safety {
+  opacity: 1;
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+  background-color: white;
+  padding-top: 2vh;
+}
+
+.secondpage img {
+  width: 100vw;
+  height: 80vh;
+  float: right;
+} */
